@@ -16,10 +16,8 @@ css/styles.css  Alle Styles (Farben oben als CSS-Variablen)
 js/i18n.js      Übersetzungen DE/TR/EN + Sprachumschalter + Formular-Logik
                 (auch die „Unsere Geschichte“-Texte liegen hier, Keys story_*)
 img/            Web-optimierte Bilder
-video/          Dandy-Aftermovie + Eskidandy-Abendvideo
-                (eskidandy-abend.mp4 ist 540p/H.264, aus IMG_9212.MOV
-                konvertiert; startet bewusst erst per Tipp aufs Play —
-                27 MB Autoplay wären auf Mobilfunk unfreundlich)
+video/          Dandy-Aftermovie (laeuft stumm in Dauerschleife
+                auf der Dandy-Unterseite)
 ```
 
 ## Anfrage-Formular
@@ -34,15 +32,15 @@ am `<form>`, bei anderen Hostern ein Dienst wie Formspree (`action`-URL
 eintragen) — dann landen Anfragen direkt im Postfach, ohne dass sich ein
 Mail-Programm öffnen muss.
 
-## Vor dem Launch ersetzen (Platzhalter!)
+## Hosting
 
-- [ ] **E-Mail** prüfen: kulturklang@outlook.de korrekt? (steht in `index.html`
-      im Kontakt-Bereich UND in `js/i18n.js` als `CONTACT_MAIL` + im
-      `form_note`-Text)
-- [ ] **Impressum & Datenschutz** — Seiten anlegen und verlinken (Pflicht in DE!
-      Impressum mit KulturKlang e.V. als Betreiber)
+Die Seite laeuft ueber GitHub Pages, ausgeliefert direkt aus dem `main`-Branch.
+Die Domain eskidandy.de ist als Custom Domain hinterlegt, dandykoeln.de leitet
+darauf weiter. Aenderungen gehen mit dem naechsten Push automatisch live.
 
-Bereits echt eingetragen:
+Impressum und Datenschutzerklaerung sind angelegt und verlinkt.
+
+Eingetragene Angaben:
 - Instagram: https://www.instagram.com/dandy_koeln_/
 - Adresse: Maarweg 261–263, 50825 Köln + Google-Maps-Link
   (https://maps.app.goo.gl/21kQ3LCuneS1ywpY6)
